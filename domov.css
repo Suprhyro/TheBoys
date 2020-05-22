@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:500");
+.predpozadie {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  height: auto;
+  width: 90%;
+  opacity: 1;
+  background-color: #fffffc;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px 10px 10px 10px;
+}
+#h1predpozadie {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: Oswald;
+}
+.fotky {
+  max-width: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-row: 2;
+}
+@media (min-width: 600px) {
+  .fotky {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 900px) {
+  .fotky {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .fotky {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.fotka {
+  color: white;
+  padding: 1rem;
+  height: 10rem;
+  width: auto;
+  height: auto;
+  
+}
+.fotky img {
+  position: relative;
+  image-orientation: from-image;
+}
+.fotka1{
+  padding: 1rem;
+  height: 22.5rem;
+  width: auto;
+}
+.fotka2{
+  padding: 1rem;
+  height: 22.5rem;
+  width: auto;
+}
