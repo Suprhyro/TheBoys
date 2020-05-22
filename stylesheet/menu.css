@@ -1,23 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:500");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
 html {
   background-color: #131b23;
   margin: 0px;
   background-image: url(/BG/BG.jpg);
+  /*Background photo by Ming Han Low on Unsplash*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  height: 2000px;
 }
-body {
-  overflow-y: scroll;
-}
+
 .menu {
   text-align: center;
   position: absolute;
   width: 100%;
   top: 2%;
   animation: mover 0.75s ease-in-out;
+  z-index: 100;
 }
 .menu a {
   font-family: "Oswald", sans-serif;
